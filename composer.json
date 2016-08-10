@@ -1,0 +1,11 @@
+{
+    "author" : "Zenel Shabani",
+    "name": "PHP - Demo application with bootstrap",
+    "type": "Demo - Application",
+    "autoload": {
+        "psr-4": { "": ["app/libs/","app/model/","app/controller/"] }
+    },
+    "require": {
+        "twig/twig": "~1.0"
+    }
+}
